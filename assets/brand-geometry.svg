@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="480" viewBox="0 0 240 480" fill="#c4e1e2">
+  <path d="M120 0h120v120H120z"/>
+  <path d="M120 240a60 60 0 0 1 120 0z"/>
+  <path d="M0 360a120 120 0 0 1 120-120v120z"/>
+  <circle cx="180" cy="300" r="60"/>
+  <path d="M0 360h120v120H0z"/>
+  <path d="M120 360h120a120 120 0 0 1-120 120z"/>
+</svg>
