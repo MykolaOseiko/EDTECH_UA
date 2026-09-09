@@ -1,0 +1,14 @@
+name: edtech-ua
+region: fra
+static_sites:
+  - name: site
+    github:
+      repo: MykolaOseiko/EDTECH_UA
+      branch: main
+      deploy_on_push: true
+    source_dir: /
+    output_dir: /
+    index_document: index.html
+    error_document: index.html
+    routes:
+      - path: /
