@@ -8,3 +8,5 @@ window.matchMedia('(min-width: 901px)').addEventListener('change',event=>{if(eve
 const registrationDialog=document.querySelector('#registration-dialog');
 document.querySelectorAll('[data-ticket]').forEach(button=>button.addEventListener('click',()=>{document.querySelector('#selected-ticket').textContent=button.dataset.ticket;registrationDialog.showModal();}));
 registrationDialog.addEventListener('click',event=>{if(event.target===registrationDialog){const rect=registrationDialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)registrationDialog.close();}});
+
+document.querySelector('#showcase-placeholder').addEventListener('click',()=>document.querySelector('#showcase-dialog').showModal());
