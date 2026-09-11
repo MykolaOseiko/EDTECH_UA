@@ -45,3 +45,16 @@ footer{background:linear-gradient(100deg,#031014,#02353d);border-top-color:#365d
 @media(max-width:900px){.hero-art{opacity:1}.hero-art::after{background:none}.mobile-nav{background:#05282f}}
 @media(max-width:600px){.hero{background:linear-gradient(125deg,#04191f 8%,#003841 63%,#0c6270)}.hero::before{width:95px;height:190px;left:-61px;top:-65px;opacity:.12}.hero::after{width:135px;height:270px;right:-39px;bottom:0;opacity:.17}.hero-art img{mask-image:linear-gradient(to bottom,transparent,#000 14%,#000 80%,transparent)}.hero-art::after{background:none}.hero-copy{position:relative;z-index:2}.hero-bottom{position:relative;z-index:2}.closing{margin-top:48px}.closing::before{width:140px;height:280px;left:-65px;opacity:.12}.speakers-section::after{width:135px;right:-60px;opacity:.07}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+
+/* Soft audience cards in the EdTech palette. */
+.audience-section{background:linear-gradient(180deg,#05262c 0%,#0c5158 48%,#234b38 76%,#062b31 100%);border:0}
+.audience-section .section-heading{display:block;text-align:center;margin-bottom:42px}
+.audience-section .section-heading>p{max-width:none;margin:20px auto 0}
+.audience-grid{border:0;gap:20px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.audience-grid article{border:0;border-radius:24px;padding:32px;background:linear-gradient(180deg,rgba(255,255,255,.10),rgba(215,255,42,.05));box-shadow:0 8px 28px rgba(0,0,0,.08)}
+.audience-grid article:hover{background:linear-gradient(180deg,rgba(255,255,255,.14),rgba(215,255,42,.10))}
+.audience-mark{display:block;width:28px;height:28px;object-fit:contain;margin-bottom:20px}
+.audience-grid h3{min-height:0;font-size:1.25rem;line-height:1.35;margin-bottom:18px}
+.audience-grid p{max-width:none;color:#d4e4e2;font-size:1rem;line-height:1.65}
+@media(max-width:900px){.audience-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.audience-grid{grid-template-columns:1fr;gap:16px}.audience-grid article{padding:26px;border-radius:20px}.audience-section .section-heading{text-align:left}}
