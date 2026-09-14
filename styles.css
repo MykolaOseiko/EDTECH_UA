@@ -90,8 +90,8 @@ footer{background:linear-gradient(100deg,#031014,#02353d);border-top-color:#365d
 .hero-art.hero-book{right:-2%;bottom:30px;width:65%;height:90%;mix-blend-mode:screen}.hero-book svg{display:block;width:100%;height:100%;overflow:visible}.hero-book:after{display:none}@media(max-width:1150px){.hero-art.hero-book{right:-12%;width:76%}}@media(max-width:900px){.hero-art.hero-book{right:-12%;width:78%;opacity:.8}}@media(max-width:600px){.hero-art.hero-book{position:relative;inset:auto;width:100%;height:360px;margin:10px auto 0;opacity:1}.hero-book svg{height:100%}.hero{display:flex;flex-direction:column}.hero-art.hero-book{order:2}.hero-inner{order:1}.hero-bottom{margin-top:30px}}
 
 /* Small symbolic book, secondary to the event title. */
-.hero-art.hero-book{position:absolute;inset:auto max(56px,calc((100% - 1280px)/2)) auto auto;top:220px;width:340px;height:320px;opacity:1;margin:0;mix-blend-mode:screen}.hero-book svg{width:100%;height:100%;overflow:hidden}
-@media(min-width:1600px){.hero-art.hero-book{width:380px;height:350px;top:235px}}
-@media(max-width:1150px){.hero-art.hero-book{right:32px;top:260px;width:260px;height:250px}}
-@media(max-width:900px){.hero-art.hero-book{position:relative;inset:auto;width:230px;height:220px;margin:16px auto 28px;order:2}.hero{display:flex;flex-direction:column}.hero-inner{order:1}.hero-bottom{margin-top:30px}}
-@media(max-width:600px){.hero-art.hero-book{width:190px;height:180px;margin:8px auto 24px}}
+.hero-art.hero-book{position:absolute;inset:auto max(56px,calc((100% - 1280px)/2)) auto auto;top:220px;width:442px;height:416px;opacity:1;margin:0;mix-blend-mode:screen}.hero-book svg{width:100%;height:100%;overflow:hidden}
+@media(min-width:1600px){.hero-art.hero-book{width:494px;height:455px;top:235px}}
+@media(max-width:1150px){.hero-art.hero-book{right:32px;top:260px;width:338px;height:325px}}
+@media(max-width:900px){.hero-art.hero-book{position:relative;inset:auto;width:299px;height:286px;margin:16px auto 28px;order:2}.hero{display:flex;flex-direction:column}.hero-inner{order:1}.hero-bottom{margin-top:30px}}
+@media(max-width:600px){.hero-art.hero-book{width:247px;height:234px;margin:8px auto 24px}}
