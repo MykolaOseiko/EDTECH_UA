@@ -87,18 +87,20 @@ footer{background:linear-gradient(100deg,#031014,#02353d);border-top-color:#365d
 .archive{display:block;border:0;border-top:1px solid var(--line);border-radius:0;padding:80px 0;background:transparent}.archive h2{font-size:clamp(2rem,3.5vw,3.2rem)}.archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:36px}.archive-grid figure{margin:0;min-width:0}.archive-grid img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:6px}@media(max-width:760px){.archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.archive-grid{grid-template-columns:1fr}.archive{padding-block:56px}}
 
 /* Original book artwork, displayed without the banner lettering. */
-.hero-art.hero-book{right:-2%;bottom:30px;width:65%;height:90%;mix-blend-mode:screen}.hero-book svg{display:block;width:100%;height:100%;overflow:visible}.hero-book:after{display:none}@media(max-width:1150px){.hero-art.hero-book{right:-12%;width:76%}}@media(max-width:900px){.hero-art.hero-book{right:-12%;width:78%;opacity:.8}}@media(max-width:600px){.hero-art.hero-book{position:relative;inset:auto;width:100%;height:360px;margin:10px auto 0;opacity:1}.hero-book svg{height:100%}.hero{display:flex;flex-direction:column}.hero-art.hero-book{order:2}.hero-inner{order:1}.hero-bottom{margin-top:30px}}
+.hero-art.hero-sprout{right:-2%;bottom:30px;width:65%;height:90%;mix-blend-mode:screen}.hero-sprout svg{display:block;width:100%;height:100%;overflow:visible}.hero-sprout:after{display:none}@media(max-width:1150px){.hero-art.hero-sprout{right:-12%;width:76%}}@media(max-width:900px){.hero-art.hero-sprout{right:-12%;width:78%;opacity:.8}}@media(max-width:600px){.hero-art.hero-sprout{position:relative;inset:auto;width:100%;height:360px;margin:10px auto 0;opacity:1}.hero-sprout svg{height:100%}.hero{display:flex;flex-direction:column}.hero-art.hero-sprout{order:2}.hero-inner{order:1}.hero-bottom{margin-top:30px}}
 
 /* Small symbolic book, secondary to the event title. */
-.hero-art.hero-book{position:absolute;inset:auto max(56px,calc((100% - 1280px)/2)) auto auto;top:220px;width:442px;height:416px;opacity:1;margin:0;mix-blend-mode:screen}.hero-book svg{width:100%;height:100%;overflow:hidden}
-@media(min-width:1600px){.hero-art.hero-book{width:494px;height:455px;top:235px}}
-@media(max-width:1150px){.hero-art.hero-book{right:32px;top:260px;width:338px;height:325px}}
-@media(max-width:900px){.hero-art.hero-book{position:relative;inset:auto;width:299px;height:286px;margin:16px auto 28px;order:2}.hero{display:flex;flex-direction:column}.hero-inner{order:1}.hero-bottom{margin-top:30px}}
-@media(max-width:600px){.hero-art.hero-book{width:247px;height:234px;margin:8px auto 24px}}
+.hero-art.hero-sprout{position:absolute;inset:auto max(56px,calc((100% - 1280px)/2)) auto auto;top:220px;width:442px;height:416px;opacity:1;margin:0;mix-blend-mode:screen}.hero-sprout svg{width:100%;height:100%;overflow:hidden}
+@media(min-width:1600px){.hero-art.hero-sprout{width:494px;height:455px;top:235px}}
+@media(max-width:1150px){.hero-art.hero-sprout{right:32px;top:260px;width:338px;height:325px}}
+@media(max-width:900px){.hero-art.hero-sprout{position:relative;inset:auto;width:299px;height:286px;margin:16px auto 28px;order:2}.hero{display:flex;flex-direction:column}.hero-inner{order:1}.hero-bottom{margin-top:30px}}
+@media(max-width:600px){.hero-art.hero-sprout{width:247px;height:234px;margin:8px auto 24px}}
 
 /* Black hero backdrop matches the original book banner. */
-.hero{background:#000}.hero::before,.hero::after{display:none}.hero-art.hero-book{mix-blend-mode:normal}
+.hero{background:#000}.hero::before,.hero::after{display:none}.hero-art.hero-sprout{mix-blend-mode:normal}
 
 
 
 .speaker-link[aria-disabled="true"]{color:#aac6c4;cursor:default;overflow-wrap:anywhere}.speaker-info h3,.speaker-role{overflow-wrap:anywhere}
+
+.hero-art.hero-sprout img{width:100%;height:100%;object-fit:contain;object-position:center;mask-image:none}
