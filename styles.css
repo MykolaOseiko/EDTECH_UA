@@ -104,3 +104,26 @@ footer{background:linear-gradient(100deg,#031014,#02353d);border-top-color:#365d
 .speaker-link[aria-disabled="true"]{color:#aac6c4;cursor:default;overflow-wrap:anywhere}.speaker-info h3,.speaker-role{overflow-wrap:anywhere}
 
 .hero-art.hero-sprout img{width:100%;height:100%;object-fit:contain;object-position:center;mask-image:none}
+
+/* Compact hero keeps the registration CTA close to the event heading. */
+.hero{min-height:0}
+.hero-copy{max-width:65%;padding-top:32px;padding-bottom:0}
+.hero h1{font-size:clamp(2rem,4.1vw,4rem);line-height:1.04}
+.hero-title-line{white-space:nowrap}
+.hero-description{margin-top:20px}
+.hero-copy .button{margin-top:20px}
+.hero-bottom{margin-top:28px}
+.hero-art.hero-sprout{top:80px;width:32%;height:360px}
+@media(min-width:1600px){.hero-art.hero-sprout{top:70px;width:420px;height:400px}}
+@media(max-width:900px){
+  .hero-copy{max-width:none;padding-top:26px;padding-bottom:0}
+  .hero h1{font-size:clamp(1.5rem,6.1vw,3.4rem)}
+  .hero-art.hero-sprout{position:relative;inset:auto;width:260px;height:250px;margin:0 auto 20px}
+}
+@media(max-width:600px){
+  .hero-inner{padding-top:20px}
+  .hero-copy{padding-top:24px}
+  .hero-description{margin-top:16px}
+  .hero-caption{margin-top:14px}
+  .hero-art.hero-sprout{width:220px;height:210px}
+}
