@@ -100,3 +100,5 @@ footer{background:linear-gradient(100deg,#031014,#02353d);border-top-color:#365d
 .hero{background:#000}.hero::before,.hero::after{display:none}.hero-art.hero-book{mix-blend-mode:normal}
 
 .audience-mark.audience-bullet{width:12px;height:12px;border-radius:50%;background:var(--lime);margin-top:8px;margin-bottom:28px}
+
+.speaker-link[aria-disabled="true"]{color:#aac6c4;cursor:default;overflow-wrap:anywhere}.speaker-info h3,.speaker-role{overflow-wrap:anywhere}
