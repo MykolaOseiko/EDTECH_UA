@@ -95,3 +95,6 @@ footer{background:linear-gradient(100deg,#031014,#02353d);border-top-color:#365d
 @media(max-width:1150px){.hero-art.hero-book{right:32px;top:260px;width:338px;height:325px}}
 @media(max-width:900px){.hero-art.hero-book{position:relative;inset:auto;width:299px;height:286px;margin:16px auto 28px;order:2}.hero{display:flex;flex-direction:column}.hero-inner{order:1}.hero-bottom{margin-top:30px}}
 @media(max-width:600px){.hero-art.hero-book{width:247px;height:234px;margin:8px auto 24px}}
+
+/* Black hero backdrop matches the original book banner. */
+.hero{background:#000}.hero::before,.hero::after{display:none}.hero-art.hero-book{mix-blend-mode:normal}
