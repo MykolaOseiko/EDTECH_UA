@@ -9,4 +9,4 @@
 - У елементі `id="linkedin_link_01"` додайте `href="https://www.linkedin.com/in/профіль/"`, видаліть `aria-disabled="true"`, а видимий текст `linkedin_link_01` замініть на `LinkedIn`.
 
 Номери 01–16 є позиціями, а не закріпленими людьми: на будь-яку позицію можна поставити будь-якого спікера.
-Після заміни файлів зробіть commit і push — сайт оновиться через DigitalOcean Autodeploy.
+
