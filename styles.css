@@ -138,3 +138,30 @@ footer{background:linear-gradient(100deg,#031014,#02353d);border-top-color:#365d
 @media(max-width:600px){.hero-art.hero-book{width:245px;height:235px}}
 /* Align the about copy with the heading in both columns. */
 .about-content{padding-top:0}.about-content .check-list{margin-top:0}
+
+.language-switch{display:flex;gap:3px;flex-shrink:0;border:1px solid #487176;border-radius:8px;padding:3px}
+.language-switch a{padding:7px 8px;border-radius:5px;font-size:.75rem;font-weight:650}
+.language-switch a[aria-current="page"]{background:var(--lime);color:#071818}
+.archive-heading{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.carousel-controls{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.carousel-controls button{width:44px;height:44px;border:1px solid #668c90;background:transparent;color:var(--lime);border-radius:50%;font-size:1.4rem}
+.carousel-controls button:disabled{opacity:.3}
+.carousel-count{font-size:.85rem;min-width:76px;text-align:center;font-variant-numeric:tabular-nums}
+.archive-carousel{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;margin-top:32px;padding-bottom:18px;scrollbar-color:var(--lime) #123c41;scrollbar-width:thin}
+.archive-carousel figure{flex:0 0 calc((100% - 40px)/3);min-width:0;margin:0;scroll-snap-align:start}
+.archive-carousel img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:12px}
+.archive-carousel:focus-visible{outline:2px solid var(--lime);outline-offset:5px}
+@media(max-width:1150px){.header-inner{gap:12px}.desktop-nav{gap:12px}}
+@media(max-width:760px){.archive-heading{align-items:flex-start;flex-direction:column}.archive-carousel figure{flex-basis:calc((100% - 20px)/2)}}
+@media(max-width:600px){
+  .header-inner{gap:8px}
+  .header-inner .brand img{width:30px;height:30px}
+  .header-inner .brand>span{font-size:1.1rem}
+  .header-inner .brand small{font-size:.6rem}
+  .header-inner>.button{padding:10px 8px;font-size:.7rem}
+  .header-inner>.button span{display:none}
+  .language-switch a{padding:8px 5px;font-size:.7rem}
+  .menu-toggle{flex-shrink:0;width:34px}
+  .archive-carousel figure{flex-basis:88%}
+}
+@media(max-width:600px){.header-inner.wrap{width:calc(100% - 24px);gap:6px}}
